@@ -1,0 +1,11 @@
+@EmailServiceAPI_HostAddress = http://localhost:5000
+
+POST {{EmailServiceAPI_HostAddress}}/api/email/send
+Content-Type: application/json
+
+{
+  "Email": "vladislav.perevozchikov.02@ya.ru",
+  "Subject": "Test Subject",
+  "Message": "Test Message"
+}
+

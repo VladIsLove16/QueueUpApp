@@ -1,0 +1,6 @@
+@MeetingMicroService_HostAddress = http://localhost:5176
+
+GET {{MeetingMicroService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

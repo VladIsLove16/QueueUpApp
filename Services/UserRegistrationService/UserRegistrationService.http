@@ -1,0 +1,10 @@
+@UserRegistrationService_HostAddress = http://localhost:5001
+
+POST {{UserRegistrationService_HostAddress}}/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "user1",
+    "password": "password123"
+}
+
